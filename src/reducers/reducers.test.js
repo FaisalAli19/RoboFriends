@@ -3,9 +3,9 @@ import {
 	REQUEST_ROBOTS_FAILED,
 	REQUEST_ROBOTS_PENDING,
 	REQUEST_ROBOTS_SUCCESS
-} from './constants';
+} from '../constants/constants';
 
-import { setSearchField, requestsRobots } from './actions'
+import { setSearchField, requestsRobots } from '../actions/actions'
 
 import * as reducers from './reducers';
 

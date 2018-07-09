@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 
-import MainPage from '../components/MainPage';
+import MainPage from '../components/MainPage/MainPage';
 
-import { setSearchField, requestsRobots } from '../actions';
+import { setSearchField, requestsRobots } from '../actions/actions';
 
 class App extends Component {
 	render() {

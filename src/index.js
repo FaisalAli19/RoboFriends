@@ -9,7 +9,7 @@ import thunkMiddleware from 'redux-thunk'
 import App from './containers/App';
 import 'tachyons'
 import "./index.css";
-import { searchRobots, requestsRobots } from './reducers';
+import { searchRobots, requestsRobots } from './reducers/reducers';
 
 const logger = createLogger();
 

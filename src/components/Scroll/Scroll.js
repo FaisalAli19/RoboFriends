@@ -6,7 +6,7 @@ const Scroll = (props) => {
 	if (props.isPending) children = <h1 style={{'fontFamily': 'SEGA LOGO FONT', 'fontWeight': '200', color:' #0ccac5'}}>Loading...</h1>
 	else children = props.children
 	return (
-		<div style={{overflowY: 'auto', border: '1px solid #000', height: '600px'}}>
+		<div style={{overflowY: 'auto', border: '1px solid #000', height: '550px'}}>
 			{children}
 		</div>
 	);
