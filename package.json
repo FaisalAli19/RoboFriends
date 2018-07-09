@@ -25,7 +25,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "fetch-mock": "^6.5.0",
     "gh-pages": "^1.2.0",
-		"redux-mock-store": "^1.5.3",
-		"redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3"
   }
 }
