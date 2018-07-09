@@ -24,6 +24,6 @@ describe('CardList Component', () => {
 			}
 		]
 		let wrapper = shallow(<CardList robots={mockList} />)
-		expect(wrapper.find(Card)).toBe.have.length(2)
+		expect(wrapper.find(Card).length).toEqual(2)
 	});
 });

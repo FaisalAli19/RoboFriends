@@ -16,12 +16,12 @@ class MainPage extends Component {
 	}
 
 	render() {
-		const { onSearchChange } = this.props
+		const { onSearchChange, isPending } = this.props
 		return (
 				<div className="tc">
 					<h1 className="f1">RoboFriends</h1>
 					<SearchBox searchChange={onSearchChange}/>
-					<Scroll>
+					<Scroll isPending={isPending}>
 						<CardList robots={this.filterRobots()}/>
 					</Scroll>
 				</div>
